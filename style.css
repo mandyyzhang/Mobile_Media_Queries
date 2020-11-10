@@ -135,6 +135,24 @@ body, html{
 
 /*3rd PAGE ===================================================================*/
 
+.pic{
+  margin-right: 4vmin;
+}
+
+.pic > img{
+  height: 45vh;
+  width: 35vh;
+
+}
+
+.text{
+  font-size: 1em;
+  color: gray;
+  line-height: 2em;
+  margin-left: 4vmin;
+}
+
+/* --------------------------------------- */
 @media only screen and (max-width: 991px) {
   .info{
     display: flex;
@@ -143,24 +161,7 @@ body, html{
     flex-wrap: wrap;
   }
 
-  .pic{
-    margin-right: 4vmin;
-  }
-
-  .pic > img{
-    height: 45vh;
-    width: 35vh;
-
-  }
-
-  .text{
-    font-size: 1em;
-    color: gray;
-    line-height: 2em;
-    margin-left: 4vmin;
-  }
 }
-
 /* --------------------------------------- */
 
 @media only screen and (min-width: 992px) {
@@ -169,22 +170,4 @@ body, html{
     justify-content: center;
     margin: 15vmin;
   }
-
-  .pic{
-    margin-right: 4vmin;
-  }
-
-  .pic > img{
-    height: 45vh;
-    width: 35vh;
-
-  }
-
-  .text{
-    font-size: 1em;
-    color: gray;
-    line-height: 2em;
-    margin-left: 4vmin;
-  }
-
 }
